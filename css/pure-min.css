@@ -772,7 +772,7 @@ a.pure-button-selected {
     box-sizing: border-box
 }
 
-.pure-menu-fixed {
+.pure-menu {
     position: fixed;
     left: 0;
     top: 0;
