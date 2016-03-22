@@ -1,0 +1,88 @@
+/* =============================================================================
+  RESETS
+============================================================================= */
+
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+
+html,
+body {
+  height: 100%;
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+
+.content {
+  z-index: 2;
+  max-width: 400px;
+  text-align: center;
+}
+
+.content_heading {
+  margin-bottom: 10px;
+  color: rgb(255,60,100);
+  font-size: 128px;
+font-family: 'Chango', cursive;
+}
+
+.content_tears {
+  margin-bottom: 35px;
+  color: rgb(255,255,255);
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.content_jimmies {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: rgb(255,60,100);
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px rgb(255,60,100);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+/* =============================================================================
+  DISABLE BUTTON ON MOBILE
+============================================================================= */
+::-webkit-media-controls {
+  display:none !important;
+}

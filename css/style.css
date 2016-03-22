@@ -19,6 +19,10 @@ label {
   color: #34495e;
 }
 
+p.content {
+  font-family: 'Nunito', sans-serif;
+}
+
 i {
   color: white;
 }
@@ -102,7 +106,6 @@ i {
   border: none;
   color: #AECFE5;
 }
-
 
 /*
 * -- SPLASH STYLES --
