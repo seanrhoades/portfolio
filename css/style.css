@@ -20,8 +20,9 @@ label {
 }
 
 p.content {
-  font-family: 'Nunito', sans-serif;
-}
+  font-family: "europa", sans-serif;
+  font-style: normal;
+  font-weight: 300;
 
 i {
   color: white;
