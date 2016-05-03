@@ -25,9 +25,23 @@
     });
 });
 </script>
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+            $('#status').fadeOut(); // will first fade out the loading animation
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+            $('body').delay(350).css({'overflow':'visible'});
+        })
+    //]]>
+</script>
 </head>
 
 <body>
+  <!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal">
       <ul class="pure-menu-list">
@@ -59,7 +73,7 @@
               <img class="pure-img-responsive rounded" alt="Sean Rhoades" width="300" src="img/photo.jpg">
           </div>
           <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5" style="padding: 3em">
-            <p class="content">Hi, I'm Sean. I'm a Web Developer and Designer living in Fort Lauderdale. My passion for development and design started at a young age, when I taught myself HTML by reading the source code of awesome 90s web sites. I worked for a newspaper in high school, where I learned Photoshop, Illustrator, and InDesign. I quickly became obsessed with perfect presentation. I went to college, worked in retail, and lived in New York City. At the beginning of 2016, I decided to pursue my love of creatology further and attended Wyncode's Web Immersive boot camp. Check out my portfolio, and let's create some forward thinking, responsive, beautiful projects together.</p>
+            <p class="content">Hi, I'm Sean. I'm a Developer and Designer living in Fort Lauderdale. My passion for development and design started at a young age, when I taught myself HTML by reading the source code of awesome 90s web sites. I worked for a newspaper in high school, where I learned Photoshop, Illustrator, and InDesign. I quickly became obsessed with perfect presentation. I went to college, worked in retail, and lived in New York City. At the beginning of 2016, I decided to pursue my love of creatology further and attended Wyncode's Web Immersive boot camp. Check out my portfolio, and let's create some forward thinking, responsive, beautiful projects together.</p>
           </div>
       </div>
       <div class="l-box pure-g" id="projects">
@@ -132,7 +146,7 @@
           <br><a href="https://linkedin.com/in/seanrhoades" target="_blank"><i class="fa fa-linkedin-square fa-5x" style="color:white"></i></a>
           <a href="https://twitter.com/seanrhoades_com" target="_blank"><i class="fa fa-twitter-square fa-5x" style="color:white"></i></a>
           <a href="https://github.com/seanrhoades" target="_blank"><i class="fa fa-github-square fa-5x" style="color:white"></i></a>
-          <p class="content">Additionally, you can find more of my contact information in my <a href="img/RhoadesSeanResume.pdf" class="fa" style="color:white; text-decoration:none">resume.</a>
+          <p class="content">Additionally, you can find more of my contact information in my <a href="img/RhoadesSeanResume.pdf" class="fa" style="color:white; font-family:'museo-sans',sans-serif; text-decoration:none">resume</a>.</p>
         </div>
       </div>
       <i></i>
