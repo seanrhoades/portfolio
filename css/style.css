@@ -69,10 +69,33 @@ i {
   text-align: center;
 }
 
+/*
+* -- HOVER EFFECTS --
+*/
+
+.with-fade-out {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+.with-fade-out:hover {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.fa {
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  }
 .fa:hover {
     color: #AECFE5 !important;
 }
-
 
 /*
 * -- MENU STYLES --
