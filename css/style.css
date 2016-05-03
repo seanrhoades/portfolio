@@ -20,9 +20,10 @@ label {
 }
 
 p.content {
-  font-family: "europa", sans-serif;
+  font-family: "museo-sans", sans-serif;
   font-style: normal;
   font-weight: 300;
+}
 
 i {
   color: white;
@@ -67,6 +68,11 @@ i {
 .is-center {
   text-align: center;
 }
+
+.fa:hover {
+    color: #AECFE5 !important;
+}
+
 
 /*
 * -- MENU STYLES --
