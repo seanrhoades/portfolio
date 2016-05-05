@@ -1,177 +1,206 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sean Rhoades - Developer and Designer">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sean Rhoades - Developer and Designer">
 
-  <title>Sean Rhoades { Developer || Designer } Portfolio</title>
+<title>Sean Rhoades { Developer || Designer } Portfolio</title>
 
-  <link rel="stylesheet" href="css/pure-min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/grids-responsive-min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="https://use.typekit.net/xam7zzx.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script type="text/javascript">
+<link rel="stylesheet" href="css/pure-min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/grids-responsive-min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://use.typekit.net/xam7zzx.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<!-- scrolling anchors -->
+<script type="text/javascript">
   jQuery(document).ready(function($) {
     $(".scroll").click(function(event){
         event.preventDefault();
         $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
     });
-});
+  });
 </script>
-<!-- Preloader -->
+
+<!-- preloader -->
 <script type="text/javascript">
-    //<![CDATA[
-        $(window).load(function() { // makes sure the whole site is loaded
-            $('#status').fadeOut(); // will first fade out the loading animation
-            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(350).css({'overflow':'visible'});
-        })
-    //]]>
+  //<![CDATA[
+      $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+      })
+  //]]>
 </script>
+
 </head>
 
 <body>
-  <!-- Preloader -->
+
+<!-- preloader markup -->
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
-  <div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal">
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#about" class="pure-menu-link scroll animated slideInRight">About Me</a></li>
-        <li class="pure-menu-item"><a href="#projects" class="pure-menu-link scroll animated slideInRight">Projects</a></li>
-        <li class="pure-menu-item"><a href="#resume" class="pure-menu-link scroll animated slideInRight">Resume</a></li>
-        <li class="pure-menu-item"><a href="#contact" class="pure-menu-link scroll animated slideInRight">Contact</a></li>
-      </ul>
+
+<!-- actual body -->
+<div class="header">
+  <div class="home-menu pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item"><a href="#about" class="pure-menu-link scroll animated slideInRight">About Me</a></li>
+      <li class="pure-menu-item"><a href="#projects" class="pure-menu-link scroll animated slideInRight">Projects</a></li>
+      <li class="pure-menu-item"><a href="#resume" class="pure-menu-link scroll animated slideInRight">Resume</a></li>
+      <li class="pure-menu-item"><a href="#contact" class="pure-menu-link scroll animated slideInRight">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="splash-container">
+  <div class="splash">
+    <h1 class="splash-head" id="typewriter"></h1>
+  </div>
+</div>
+
+<div class="content-wrapper">
+
+  <div class="content">
+    <h2 class="content-head is-center animated slideInUp">{ Developer || Designer }</h2>
+  </div>
+
+  <div class="l-box pure-g" id="about">
+    <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+      <h3 class="content-head content-head-ribbon">About Me</h3>
     </div>
   </div>
 
-  <div class="splash-container">
-    <div class="splash">
-      <h1 class="splash-head" id="typewriter"></h1>
+  <div class="l-box-lrg pure-g">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+      <img class="pure-img-responsive rounded" alt="Sean Rhoades" width="300" src="img/photo.jpg">
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5" style="padding: 3em">
+      <p class="content">Hi, I'm Sean. I'm a Developer and Designer living in Fort Lauderdale. My passion for development and design started at a young age, when I taught myself HTML by reading the source code of awesome 90s web sites. I worked for a newspaper in high school, where I learned Photoshop, Illustrator, and InDesign. I quickly became obsessed with perfect presentation. I went to college, worked in retail, and lived in New York City. At the beginning of 2016, I decided to pursue my love of creatology further and attended Wyncode's Web Immersive boot camp. Check out my portfolio, and let's create some forward thinking, responsive, beautiful projects together.</p>
     </div>
   </div>
 
-  <div class="content-wrapper">
-    <div class="content">
-      <h2 class="content-head is-center animated slideInUp">{ Developer || Designer }</h2>
+  <div class="l-box pure-g" id="projects">
+    <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+      <h3 class="content-head content-head-ribbon" style="padding-bottom:4em">Projects</h3>
     </div>
-    <div class="l-box pure-g" id="about">
-        <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-          <h3 class="content-head content-head-ribbon">About Me</h3>
-        </div>
-    </div>
-      <div class="l-box-lrg pure-g">
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-              <img class="pure-img-responsive rounded" alt="Sean Rhoades" width="300" src="img/photo.jpg">
-          </div>
-          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5" style="padding: 3em">
-            <p class="content">Hi, I'm Sean. I'm a Developer and Designer living in Fort Lauderdale. My passion for development and design started at a young age, when I taught myself HTML by reading the source code of awesome 90s web sites. I worked for a newspaper in high school, where I learned Photoshop, Illustrator, and InDesign. I quickly became obsessed with perfect presentation. I went to college, worked in retail, and lived in New York City. At the beginning of 2016, I decided to pursue my love of creatology further and attended Wyncode's Web Immersive boot camp. Check out my portfolio, and let's create some forward thinking, responsive, beautiful projects together.</p>
-          </div>
-      </div>
-      <div class="l-box pure-g" id="projects">
-          <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-            <h3 class="content-head content-head-ribbon" style="padding-bottom:4em">Projects</h3>
-          </div>
-      </div>
-      <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-            <a href="http://www.rhoadespartyof3.com" target="_blank">
-              <img class="pure-img-responsive more-rounded with-fade-out" alt="Rhoades Party of 3" width="300" src="img/partyof3.jpg"></a>
-            <h3 style="font-weight:300">RHOADES PARTY OF 3</h3>
-            <p class="content">My brother was getting married, and I created a web app for his wedding. It allows users to view information about the wedding and upload and view a stream of photos. My intent was for it to be used as a mobile app during the ceremony.</p>
-        </div>
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-              <a href="http://www.fanluv.co" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/fanluv.jpg"></a>
-              <h3 style="font-weight:300">FANLUV</h3>
-              <p class="content">This is my final Ruby on Rails project for Wyncode. I came up with the idea, and as a group we decided on the functionality. It is a platform/social network to faciliate musicians' fan clubs.</p>
-          </div>
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-              <a href="http://www.beeromatic.info" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out image" alt="File Icons" width="300" src="img/beeromatic.jpg"></a>
-              <h3 style="font-weight:300">BEER-O-MATIC</h3>
-              <p class="content">This is a responsive, mobile-first Ruby on Rails site I built at Wyncode. On each page load, you receive information about a random beer. I used the BreweryDB API to pull the information.</p>
-          </div>
-        </div>
-        <div class="ribbon l-box-lrg pure-g">
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-              <a href="https://github.com/seanrhoades/octoberandcoffee" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/coffee.jpg"></a>
-              <h3 style="font-weight:300">OCTOBER & COFFEE</h3>
-              <p class="content">This is a group Ruby on Rails project I worked on at Wyncode for Friends & Family night. It is a web application for coffee enthusiasts. </p>
-          </div>
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-              <a href="https://github.com/seanrhoades/repl_game" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/repl_game.jpg"></a>
-              <h3 style="font-weight:300">REPL GAME</h3>
-              <p class="content">This is a Ruby REPL game I created at Wyncode. It's a mix of Grand Theft Auto and a Choose Your Own Adventure. I had a lot of fun with this project.</p>
-          </div>
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-            <a href="https://github.com/seanrhoades/tip_calculator" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/tip_calculator.jpg"></a>
-            <h3 style="font-weight:300">TIP CALCULATOR</h3>
-            <p class="content">This is a Wyncode pair programming project I worked on with my classmate Robert Anderson, written in Ruby.</p>
-          </div>
-        </div>
-        <div class="ribbon l-box-lrg pure-g">
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-              <a href="404.html"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/fourohfour.jpg"></a>
-              <h3 style="font-weight:300">GREATEST 404 EVER</h3>
-              <p class="content">Just because.</p>
-          </div>
-        </div>
-      <div class="l-box pure-g">
-              <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
-                <h3 class="content-head content-head-ribbon" style="padding-top:3em" id="resume">Resume</h3>
-              </div>
-          </div>
-      <div class="l-box-lrg pure-g">
-          <div class="l-box-lrg is-center pure-u-1 pure-u-md-1 pure-u-1">
-              <a href="img/RhoadesSeanResume.pdf" target="_blank"><img class="pure-img-responsive" alt="Sean Rhoades" src="img/resume.png"></a>
-              <p class="content">< click resume to view as PDF ></p>
+  </div>
 
-          </div>
-      </div>
-      <div class="l-box pure-g">
-              <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1" id="contact">
-                <h3 class="content-head content-head-ribbon" style="padding-bottom:4em">Contact</h3>
-              </div>
-      </div>
-      <div class="ribbon l-box-lrg pure-g" style="background-color:#6FBEF3">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1 pure-u-lg-1" style="padding-bottom:6em; padding-top:12em">
-          <a href="mailto:sean@seanrhoades.com"><i class="fa fa-envelope fa-5x" style="color:white"></i></a>
-          <br><a href="https://linkedin.com/in/seanrhoades" target="_blank"><i class="fa fa-linkedin-square fa-5x" style="color:white"></i></a>
-          <a href="https://twitter.com/seanrhoades_com" target="_blank"><i class="fa fa-twitter-square fa-5x" style="color:white"></i></a>
-          <a href="https://github.com/seanrhoades" target="_blank"><i class="fa fa-github-square fa-5x" style="color:white"></i></a>
-          <p class="content">Additionally, you can find more of my contact information in my <a href="img/RhoadesSeanResume.pdf" class="fa" style="color:white; font-family:'museo-sans',sans-serif; text-decoration:none">resume</a>.</p>
-        </div>
-      </div>
-      <i></i>
+  <div class="ribbon l-box-lrg pure-g">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="http://www.rhoadespartyof3.com" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="Rhoades Party of 3" width="300" src="img/partyof3.jpg"></a>
+      <h3 style="font-weight:300">RHOADES PARTY OF 3</h3>
+      <p class="content">My brother was getting married, and I created a web app for his wedding. It allows users to view information about the wedding and upload and view a stream of photos. My intent was for it to be used as a mobile app during the ceremony.</p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="http://www.fanluv.co" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/fanluv.jpg"></a>
+      <h3 style="font-weight:300">FANLUV</h3>
+      <p class="content">This is my final Ruby on Rails project for Wyncode. I came up with the idea, and as a group we decided on the functionality. It is a platform/social network to faciliate musicians' fan clubs.</p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="http://www.beeromatic.info" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out image" alt="File Icons" width="300" src="img/beeromatic.jpg"></a>
+      <h3 style="font-weight:300">BEER-O-MATIC</h3>
+      <p class="content">This is a responsive, mobile-first Ruby on Rails site I built at Wyncode. On each page load, you receive information about a random beer. I used the BreweryDB API to pull the information.</p>
+    </div>
+  </div>
+  <div class="ribbon l-box-lrg pure-g">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="https://github.com/seanrhoades/octoberandcoffee" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/coffee.jpg"></a>
+      <h3 style="font-weight:300">OCTOBER & COFFEE</h3>
+      <p class="content">This is a group Ruby on Rails project I worked on at Wyncode for Friends & Family night. It is a web application for coffee enthusiasts. </p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="https://github.com/seanrhoades/repl_game" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/repl_game.jpg"></a>
+      <h3 style="font-weight:300">REPL GAME</h3>
+      <p class="content">This is a Ruby REPL game I created at Wyncode. It's a mix of Grand Theft Auto and a Choose Your Own Adventure. I had a lot of fun with this project.</p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="https://github.com/seanrhoades/tip_calculator" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/tip_calculator.jpg"></a>
+      <h3 style="font-weight:300">TIP CALCULATOR</h3>
+      <p class="content">This is a Wyncode pair programming project I worked on with my classmate Robert Anderson, written in Ruby.</p>
+    </div>
+  </div>
+  <div class="ribbon l-box-lrg pure-g">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="404.html"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/fourohfour.jpg"></a>
+      <h3 style="font-weight:300">GREATEST 404 EVER</h3>
+      <p class="content">Just because.</p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+      <a href="http://www.coroflot.com/seanrhoades/portfolio" target="_blank"><img class="pure-img-responsive more-rounded with-fade-out" alt="File Icons" width="300" src="img/graphicdesign.jpg"></a>
+      <h3 style="font-weight:300">GRAPHIC DESIGN PORTFOLIO</h3>
+      <p class="content">Check out my graphic design and illustration work over at my Coroflot portfolio.</p>
+    </div>
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+        <br />
+    </div>
+  </div>
+
+  <div class="l-box pure-g">
+    <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1">
+      <h3 class="content-head content-head-ribbon" style="padding-top:3em" id="resume">Resume</h3>
+    </div>
+  </div>
+
+  <div class="l-box-lrg pure-g">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1 pure-u-1">
+      <a href="img/RhoadesSeanResume.pdf" target="_blank"><img class="pure-img-responsive" alt="Sean Rhoades" src="img/resume.png"></a>
+      <p class="content">< click resume to view as PDF ></p>
+    </div>
+  </div>
+
+  <div class="l-box pure-g">
+    <div class="l-box is-center pure-u-1 pure-u-md-1-1 pure-u-lg-1-1" id="contact">
+      <h3 class="content-head content-head-ribbon" style="padding-bottom:4em">Contact</h3>
+    </div>
+  </div>
+
+  <div class="ribbon l-box-lrg pure-g" style="background-color:#6FBEF3">
+    <div class="l-box-lrg is-center pure-u-1 pure-u-md-1 pure-u-lg-1" style="padding-bottom:6em; padding-top:12em">
+      <a href="mailto:sean@seanrhoades.com"><i class="fa fa-envelope fa-5x" style="color:white"></i></a>
+      <br><a href="https://linkedin.com/in/seanrhoades" target="_blank"><i class="fa fa-linkedin-square fa-5x" style="color:white"></i></a>
+      <a href="https://twitter.com/seanrhoades_com" target="_blank"><i class="fa fa-twitter-square fa-5x" style="color:white"></i></a>
+      <a href="https://github.com/seanrhoades" target="_blank"><i class="fa fa-github-square fa-5x" style="color:white"></i></a>
+      <p class="content">Additionally, you can find more of my contact information in my <a href="img/RhoadesSeanResume.pdf" class="fa" style="color:white; font-family:'museo-sans',sans-serif; text-decoration:none">resume</a>.</p>
+    </div>
+  </div>
+
+</div>
+
 </body>
+
+<!-- typewriter text -->
 <script type="text/javascript">
 var str = "Sean Rhoades ",
-    i = 0,
-    isTag,
-    text;
+  i = 0,
+  isTag,
+  text;
 
 (function type() {
-    text = str.slice(0, ++i);
-    if (text === str) return;
+  text = str.slice(0, ++i);
+  if (text === str) return;
 
-    document.getElementById('typewriter').innerHTML = text;
+  document.getElementById('typewriter').innerHTML = text;
 
-    var char = text.slice(-1);
-    if( char === '<' ) isTag = true;
-    if( char === '>' ) isTag = false;
+  var char = text.slice(-1);
+  if( char === '<' ) isTag = true;
+  if( char === '>' ) isTag = false;
 
-    if (isTag) return type();
-    setTimeout(type, 150);
+  if (isTag) return type();
+  setTimeout(type, 150);
 }());
 
 </script>
+
+<!-- google analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -182,4 +211,5 @@ var str = "Sean Rhoades ",
   ga('send', 'pageview');
 
 </script>
+
 </html>
